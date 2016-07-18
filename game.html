@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ATypicalTypingGame</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <div class="container">
+		<div id="site">
+		    <div id="fallingZone"></div>
+		</div>
+    <div id="board">
+  		<div id="scoreBoard"> SCORE: <span id="score">0</span></div>
+  		<div id="lifeBoard">LIFE: <span id="life">10</span></div>
+      <div id="levelBoard">LEVEL: <span id="level">1</span></div>
+    </div>
+		<div class ="inputHolder">
+      <input id="words" type="text" value=""><button id = "button">Enter</button>
+    </div>
+  </div>
+    <div class="finishScreen" style="display:none">
+      <h1>GAME OVER</h1>
+      <h1>Your score was: <span id="finalScore"></span></h1>
+      <div id = bttnContainer>
+        <button id="startAgain">Start Again</button>
+      </div>
+    </div>
+
+	</body>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='script.js'></script>
+  <script src="sound.js"></script>
+</html>

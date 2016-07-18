@@ -1,0 +1,15 @@
+improvement
+1 index.html and make maybe two states (game and end state)
+
+move functions(esp. ajax call) to a factory
+maybe one controller for game
+
+replace all global variables
+
+create db for words?
+
+angular on html
+
+express sequlize on backend
+
+make it responsive

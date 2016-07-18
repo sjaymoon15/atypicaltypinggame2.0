@@ -1,0 +1,131 @@
+ 
+ .fallingWords {
+    top:0px;
+    left:0px;
+    position:absolute;
+    z-index:200;
+    /*width:250px;*/
+    height:80px;
+    background:white;
+    font-family: "Lato", sans-Serif; 
+    font-size: 4em;
+    padding: 0 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+  }
+body {
+    background-color:#66ccff;
+
+}
+#board {
+  font-family: "Lato";
+}
+#site {
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+}
+.inputHolder{
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#scoreBoard
+{
+    font-size: 4.5em;
+    top: 30px; 
+    right: 40px; 
+    /*display: none; */
+    position: absolute;
+    text-align:right; 
+    
+} 
+#lifeBoard
+{
+    font-size: 4.5em;
+    top: 120px; 
+    right: 40px; 
+    /*display: none; */
+    position: absolute;
+    text-align:right; 
+    
+} 
+#levelBoard
+{
+    font-size: 4.5em;
+    top: 210px; 
+    right: 40px; 
+    /*display: none; */
+    position: absolute;
+    text-align:right; 
+    
+} 
+h1{
+  font-size: 5em;
+  text-align: center;
+  margin: 50px;
+  font-family: "Lato", sans-Serif; 
+}
+#bttnContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+#startAgain{
+
+  background-color: white;
+  border: 0px;
+  border-radius: 15px;
+  width: 400px;
+  height: 100px;
+  color: black;
+  font-size: 4.5em;
+  font-family: "Lato", sans-Serif; 
+  /*margin:100px;*/
+}
+
+  
+}
+#startAgain:hover{
+  background-color: #5882FA;
+  -webkit-box-shadow:  5px 5px 10px 1px rgba(0, 0, 0, .5);
+  box-shadow:  5px 5px 10px 1px rgba(0, 0, 0, .5);
+}
+
+.finishScreen {
+    position:absolute;
+    height:0px;
+    width:0px;
+    background-color:#66ccff;
+    right:0;
+    left:0;
+    bottom:0;
+    top:0;
+    margin: auto; 
+    
+}
+.finishScreenAdded {
+    height:80%;
+    width:50%;  
+    border-radius: 15px;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
